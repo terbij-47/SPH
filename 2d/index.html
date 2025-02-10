@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="vec2.js"></script>
+        <script src="cells.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <canvas height = "800" width = "600" id = "canvas" style = "border: 1px solid black;"></canvas>
+        
+        <script>
+            function getAlpha(){ alpha = +document.getElementById("a").value; console.log(alpha); alpha *= (Math.PI / 180);}
+            function getVelocity(){ V0 = +document.getElementById("v").value; console.log(V0);}
+
+            document.getElementById("start").addEventListener("click", start);
+        </script>
+    </body>
+</html>
